@@ -12,6 +12,9 @@ This project bridges the gap between SQL databases and non-technical users by en
 
 The application connects to a SQLite database (`pr_report.db`) and uses Langchain agents to translate natural language inputs into SQL queries. The results are then returned to the user in real time.
 
+## Screenshot of the Application
+![image](https://github.com/user-attachments/assets/cc079d87-1bfb-4afe-8e5e-5ddbfc35309f)
+
 ## ⚙️ How to Use
 
 1. **Install Requirements**:
