@@ -1,6 +1,6 @@
 import streamlit as st
 from pathlib import Path
-from langchain.sql_database import SQLDatabase
+from langchain_community.utilities.sql_database import SQLDatabase
 from langchain_community.agent_toolkits.sql.toolkit import SQLDatabaseToolkit
 from sqlalchemy import create_engine
 import sqlite3
