@@ -12,19 +12,6 @@ This project bridges the gap between SQL databases and non-technical users by en
 
 The application connects to a SQLite database (`pr_report.db`) and uses Langchain agents to translate natural language inputs into SQL queries. The results are then returned to the user in real time.
 
-## 🖥️ Features on the Front Page
-
-When you launch the app (`streamlit run app.py`), you will see:
-- **Title**: "Chat with SQL"
-- **Input Box**: Where you can enter natural language queries, like "Show me the top 5 customers by sales."
-- **Submit Button**: To send your message.
-- **Response Box**: Where the AI response is displayed.
-- **SQL Query**: The actual SQL query generated from your message is shown (for transparency).
-- **Response Area**: Shows the answer fetched from the database.
-- **Sidebar**:
-  - Chat history from the current session.
-  - Information about the database used.
-
 ## ⚙️ How to Use
 
 1. **Install Requirements**:
