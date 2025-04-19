@@ -10,7 +10,7 @@ This project bridges the gap between SQL databases and non-technical users by en
 - **Groq**: A powerful LLM that interprets the user's intent.
 - **Streamlit**: A lightweight frontend for interactive web applications.
 
-The application connects to a SQLite database (`Chinook.db`) and uses Langchain agents to translate natural language inputs into SQL queries. The results are then returned to the user in real time.
+The application connects to a SQLite database (`pr_report.db`) and uses Langchain agents to translate natural language inputs into SQL queries. The results are then returned to the user in real time.
 
 ## 🖥️ Features on the Front Page
 
